@@ -1,0 +1,61 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  color: rgb(198, 139, 210);
+  font-size: 40px;
+}
+
+.textContainer {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 10px 2px rgb(201, 200, 200);
+}
+
+.btnContainer {
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 5px 10px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  border: none;
+  background-color:rgb(198, 139, 210);
+  font-size: large;
+  border-radius: 3px;
+  color: white;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .btnContainer {
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
